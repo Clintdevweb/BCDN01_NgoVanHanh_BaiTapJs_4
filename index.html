@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập Js Buoi 4</title>
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Jquery -->
+    
+</head>
+
+
+<body>
+    <!-- Bài tập 1 -->
+    <div class="mt-5 container ">
+            <h3 class="text-center my-5">Sắp xếp các số theo thứ tự tăng dần(Bài tập 1)</h3>
+            <div class="row mx-auto">
+                <div class="col-4">
+                    <form action="">
+                        <input id="so1" type="text" class="form-control">
+                    </form>    
+                </div>
+                <div class="col-4">
+                    <form action="">
+                        <input id="so2" type="text" class="form-control">
+                    </form>    
+                </div>
+                <div class="col-4">
+                    <form action="">
+                        <input id="so3" type="text" class="form-control">
+                    </form>    
+                </div>
+            </div>
+            <p class="my-4 text-center text-success" id="txtAlert"></p>
+            <button class="btn btn-primary mt-3 align-self-center d-block mx-auto" type="button" id="btnArrange">Done</button>
+    </div>
+
+    <!-- Bài tập 2 -->
+    <div class="mt-5 container">
+        <h3 class="text-center mt-5">Tôi là người máy đến từ việt nam (Bài tập 2)</h3>
+        <p><strong>Note:</strong> Hiện tại đang trong quá trình thử nghiệm chương trình gửi lời chào đến thành viên trong gia đình. Vui lòng nhập thành viên gia đình (Ví dụ: bố, mẹ, anh trai, em gái). Vì thông minh nên tôi sử dụng được cả tiếng anh (english)</p>
+        <div class="row mx-auto">
+            <div class="col-4 mx-auto">
+                <form action="" class="">
+                    <input id="memberFm" type="text" class="form-control">
+                </form>
+            </div>
+        </div>
+        <p class="my-4 text-center text-success" id="textWho"></p>
+        <button class="btn btn-primary mt-3 align-self-center d-block mx-auto" type="button" id="btnHi">Hi</button>
+    </div>
+    
+    <!-- Bài tập 3 -->
+    <div class="mt-5 container ">
+        <h3 class="text-center my-5">Đếm số chẵn lẽ của dãy 3 số (Bài tập 3)</h3>
+        <div class="row mx-auto">
+            <div class="col-4">
+                <form action="">
+                    <input id="InputNum1" type="text" class="form-control">
+                </form>    
+            </div>
+            <div class="col-4">
+                <form action="">
+                    <input id="InputNum2" type="text" class="form-control">
+                </form>    
+            </div>
+            <div class="col-4">
+                <form action="">
+                    <input id="InputNum3" type="text" class="form-control">
+                </form>    
+            </div>
+        </div>
+        <p class="my-4 text-center text-success" id="txtResult"></p>
+        <button class="btn btn-primary mt-3 align-self-center d-block mx-auto" type="button" id="btnResult">Do it</button>
+    </div>
+
+    <!-- Bài tập 4 -->
+    
+        <div class="mt-5 container ">
+            <h3 class="text-center my-5">Hỏi đáp nhanh các loại tam giác (Bài tập 4)</h3>
+            <div class="row mx-auto">
+                <div class="col-4">
+                    <h6 class="text-center">Cạnh (Edge) 1</h6>
+                    <form action="">
+                        <input id="InputEdge1" type="text" class="form-control">
+                    </form>    
+                </div>
+                <div class="col-4">
+                    <h6 class="text-center">Cạnh (Edge) 2</h6>
+                    <form action="">
+                        <input id="InputEdge2" type="text" class="form-control">
+                    </form>    
+                </div>
+                <div class="col-4">
+                    <h6 class="text-center">Cạnh (Edge) 3</h6>
+                    <form action="">
+                        <input id="InputEdge3" type="text" class="form-control">
+                    </form>    
+                </div>
+            </div>
+            <p class="my-4 text-center text-success" id="txtTriangle"></p>
+            <button class="btn btn-primary mt-3 align-self-center d-block mx-auto" type="button" id="btnTriangle">Answer</button>
+        </div>
+   
+
+
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+    <!-- BS4 JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
